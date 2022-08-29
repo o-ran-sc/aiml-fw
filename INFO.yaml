@@ -1,0 +1,48 @@
+---
+project: 'aiml_fw'
+project_creation_date: '2022-08-17'
+project_category: ''
+lifecycle_state: 'Incubation'
+project_lead: &oran_aiml_fw_ptl
+    name: 'Hoejoo Lee'
+    email: 'hoejoo.lee@samsung.com'
+    id: 'cromee'
+    company: 'Samsung'
+    timezone: 'Asia/Seoul'
+primary_contact: *oran_aiml_fw_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.o-ran-sc.org/projects/'
+    key: 'aiml_fw'
+mailing_list:
+    type: 'groups.io'
+    url: 'technical-discuss@lists.o-ran-sc.org'
+    tag: '[]'
+realtime_discussion:
+    type: 'irc'
+    server: 'freenode.net'
+    channel: '#o-ran-sc'
+meetings:
+    - type: 'zoom'
+      agenda: ''
+      url: ''
+      server: 'n/a'
+      channel: 'n/a'
+      repeats: 'weekly'
+      time: ''
+repositories:
+    - aiml-fw
+committers:
+    - <<: *oran_aiml_fw_ptl
+    - name: 'Joseph Thaliath'
+      email: 'jo.thaliath@samsung.com'
+      company: 'Samsung'
+      id: 'josephthaliath'
+      timezone: 'Asia/Kolkata'
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'https://wiki.o-ran-sc.org/display/TOC\#ORANSCTechnicalOversightCommittee\(TOC\)-20220811'
+    changes:
+        - type: ''
+          name: ''
+          link: ''
